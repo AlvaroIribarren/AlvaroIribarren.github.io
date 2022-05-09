@@ -2135,12 +2135,13 @@ input, select, textarea {
 
     .image.avatar_landing_page {
       border-radius: 100%;
-      padding-bottom: 1cm;
-      padding-right: 1cm;
+      padding-bottom: 2cm;
+      display: flex;
+      justify-content: center;
     }
 
       .image.avatar_landing_page:before {
-        display: none;
+        display: block;
       }
 
       .image.avatar_landing_page img {
@@ -2620,7 +2621,6 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
 	}
 
 		#header > * {
@@ -2698,7 +2698,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 30%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
